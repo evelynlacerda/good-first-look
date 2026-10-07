@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep this mockup frontend-only with a separate typed demonstration dataset; no live GitHub or authentication is implied.
+- Define comic styling and both themes in global semantic CSS tokens and expose interactive variants through the shared Button.

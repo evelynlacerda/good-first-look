@@ -9,6 +9,10 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        comic: "comic-button comic-button-primary",
+        paper: "comic-button comic-button-paper",
+        chip: "comic-button comic-button-chip",
+        tool: "comic-button-icon",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:

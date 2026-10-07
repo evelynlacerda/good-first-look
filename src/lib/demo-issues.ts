@@ -1,0 +1,12 @@
+export type DemoIssue = { id: number; title: string; repo: string; language: string; updated: string; labels: string[]; health: string; topic: string; locale: string; unassigned: boolean };
+export const demoIssues: DemoIssue[] = [
+ {id:1,title:'Melhorar a navegação por teclado no menu',repo:'freeCodeCamp / freeCodeCamp',language:'JavaScript',updated:'há 2 horas',labels:['good first issue','a11y','help wanted'],health:'Responde rápido',topic:'acessibilidade',locale:'en',unassigned:true},
+ {id:2,title:'Adicionar testes para o componente Button',repo:'shadcn-ui / ui',language:'TypeScript',updated:'há 4 horas',labels:['good first issue','tests'],health:'Ativo',topic:'frontend',locale:'en',unassigned:true},
+ {id:3,title:'Corrigir tradução da página de adoção',repo:'patas-abertas / plataforma',language:'Python',updated:'há 1 hora',labels:['good first issue','tradução','🐾'],health:'Acolhe iniciantes',topic:'proteção animal',locale:'pt',unassigned:true},
+ {id:4,title:'Adicionar descrição acessível às imagens',repo:'storybookjs / storybook',language:'TypeScript',updated:'há 6 horas',labels:['good first issue','accessibility'],health:'Ativo',topic:'acessibilidade',locale:'en',unassigned:false},
+ {id:5,title:'Atualizar os exemplos da documentação',repo:'laravel / docs',language:'PHP',updated:'há 3 horas',labels:['good first issue','documentation'],health:'Responde rápido',topic:'frontend',locale:'en',unassigned:true},
+ {id:6,title:'Ajustar formulário de cadastro de voluntários',repo:'codigo-solidario / conecta',language:'JavaScript',updated:'há 5 horas',labels:['good first issue','frontend','social'],health:'Acolhe iniciantes',topic:'impacto social',locale:'pt',unassigned:true},
+ {id:7,title:'Revisar mensagens de erro do formulário',repo:'patas-abertas / plataforma',language:'Python',updated:'há 8 horas',labels:['good first issue','ux'],health:'Ativo',topic:'proteção animal',locale:'pt',unassigned:false},
+ {id:8,title:'Documentar configuração do ambiente local',repo:'codigo-solidario / conecta',language:'JavaScript',updated:'há 1 dia',labels:['good first issue','documentation'],health:'Acolhe iniciantes',topic:'impacto social',locale:'pt',unassigned:true},
+ {id:9,title:'Melhorar contraste dos controles de navegação',repo:'shadcn-ui / ui',language:'TypeScript',updated:'há 1 dia',labels:['good first issue','a11y'],health:'Ativo',topic:'acessibilidade',locale:'en',unassigned:true},
+];
